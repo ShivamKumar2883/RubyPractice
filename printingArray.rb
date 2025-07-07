@@ -4,3 +4,8 @@ length = nums.length
 for i in 0..length
   puts nums[i]
 end
+
+nums.pop
+for i in 0..length
+  puts nums[i]
+end
