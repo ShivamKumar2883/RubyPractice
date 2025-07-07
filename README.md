@@ -7,26 +7,21 @@ Check your current changes:
 git status
 (Shows which files are modified/untracked)
 
-Stage all changes (or specific files):
-bash
+# Stage all changes (or specific files):
 git add .                         # All changes
 git add filename.rb               # Specific file
 
-Commit with a descriptive message:
-bash
+# Commit with a descriptive message:
 git commit -m "Added calculator feature"
 
-Push to GitHub:
-bash
+# Push to GitHub:
 git push origin main
 
 # Example Workflow
 You create a new file calculator.rb:
-bash
 touch calculator.rb
 
-Follow the push steps:
-bash
+# Follow the push steps:
 git add calculator.rb
 git commit -m "Added calculator script"
 git push origin main
