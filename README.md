@@ -1,27 +1,47 @@
 # RubyPractice
+
 Just track for learning Ruby Language and its important Questions to practice. Under Nirmal Sir's Guidance.
 
+---
 
-# Standard Workflow for Pushing Changes
-Check your current changes:
-git status
-(Shows which files are modified/untracked)
+## Standard Workflow for Pushing Changes
 
-# Stage all changes (or specific files):
-git add .                         # All changes
-git add filename.rb               # Specific file
+1. Check your current changes:
+   ```bash
+   git status
+   ```
 
-# Commit with a descriptive message:
-git commit -m "Added calculator feature"
+2. Stage changes:
+   ```bash
+   git add .
+   ```
+   or for specific file:
+   ```bash
+   git add filename.rb
+   ```
 
-# Push to GitHub:
-git push origin main
+3. Commit changes:
+   ```bash
+   git commit -m "Your commit message"
+   ```
 
-# Example Workflow
-You create a new file calculator.rb:
-touch calculator.rb
+4. Push to GitHub:
+   ```bash
+   git push origin main
+   ```
 
-# Follow the push steps:
-git add calculator.rb
-git commit -m "Added calculator script"
-git push origin main
+---
+
+## Example Workflow
+
+1. Create a new file:
+   ```bash
+   touch calculator.rb
+   ```
+
+2. Push the new file:
+   ```bash
+   git add calculator.rb
+   git commit -m "Added calculator script"
+   git push origin main
+   ```
