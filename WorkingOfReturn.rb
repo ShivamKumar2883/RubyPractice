@@ -14,4 +14,5 @@ end
 puts(add(a,b))
 
 #You don't need return statement in ruby for last line function!
+#if you don't stores the value it goes to Garbage Collection.
 #Study About Garbage Collection
