@@ -34,7 +34,6 @@ puts x.is_a?(Object)
 # 91
 # String
 # BasicObject
-
 # true
 # true
 # true
