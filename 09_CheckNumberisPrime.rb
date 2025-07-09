@@ -1,5 +1,5 @@
 def primeOrNot(num)
-    tf=1
+    tf=0
     for i in 1..num
         tf += 1 if num % i == 0
         end
