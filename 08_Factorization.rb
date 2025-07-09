@@ -1,4 +1,4 @@
-#WAP to accept the number and display its prime factorization.
+#WAP to accept the number and display its factorization.
 
 def primefactors(num)
     for i in 1..num
@@ -7,7 +7,7 @@ def primefactors(num)
     end
 end
     num = gets.to_i
-    puts "Prime factors for #{num} number are: \n"
+    puts "factors for #{num} number are: \n"
     primefactors(num)
 
 =begin 
