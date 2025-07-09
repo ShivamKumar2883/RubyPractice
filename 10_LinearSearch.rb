@@ -1,4 +1,4 @@
-#WAP to search the number in present arrya.
+#WAP to search the number in present array.
 
 print "Enter the size of array \n"
 
