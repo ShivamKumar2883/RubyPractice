@@ -40,11 +40,11 @@
 
 | Method       | Example                             | Result       | Description                          |
 |--------------|-------------------------------------|--------------|--------------------------------------|
-| `each`       | `[1,2].each { |x| puts x }`        | Prints 1, 2  | Iterates through elements            |
-| `map`        | `[1,2].map { |x| x*2 }`           | `[2, 4]`     | Transforms elements                  |
-| `select`     | `[1,2].select { |x| x>1 }`        | `[2]`        | Filters elements                     |
-| `reject`     | `[1,2].reject { |x| x>1 }`        | `[1]`        | Opposite of select                   |
-| `reduce`     | `[1,2].reduce(:+)`                 | `3`          | Combines elements with operation     |
+| `each`       | `[1,2].each { |x| puts x }`         | Prints 1, 2  | Iterates through elements            |
+| `map`        | `[1,2].map { |x| x*2 }`             | `[2, 4]`     | Transforms elements                  |
+| `select`     | `[1,2].select { |x| x>1 }`          | `[2]`        | Filters elements                     |
+| `reject`     | `[1,2].reject { |x| x>1 }`          | `[1]`        | Opposite of select                   |
+| `reduce`     | `[1,2].reduce(:+)`                  | `3`          | Combines elements with operation     |
 
 ## 5. Type Conversion Methods
 
