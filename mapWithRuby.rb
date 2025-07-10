@@ -13,3 +13,18 @@
 #We can even use in-build function with help of map diretly
 ["a", "b", "c"].map{|n| puts n.upcase}
 #output: A B C
+
+=begin 
+you can even use refrence of variable to use it with functions like:
+
+["a", "b", "c"].map(puts (&:upcase))
+
+this line will return and error because Ruby doesn't allow this specific combination of method calls
+puts returns nil, which would make your mapped array full of nils
+
+in place of this we can write like:
+=end
+
+ul = ["a", "b", "c"].map(&:upcase)
+puts ul
+#output: A, B, C
