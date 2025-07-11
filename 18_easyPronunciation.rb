@@ -42,4 +42,53 @@ Explanation:
 - "schtschurowskia" - contains "schtsch" (6 consonants) → hard
 =end
 
-i will do it later started with patters
+vowels = ['a','e','i','o','u']
+
+puts "Enter the times of loop"
+
+t = gets.to_i
+
+for i in 1..t
+  n = gets.to_i
+  s = gets.to_s
+
+  maxCount =0
+  currentvalue = 0
+
+  for i in 0..n-1
+    char = s[i]
+    if char =='a' || char == 'e' || char == 'i' || char == 'o' || char == 'u'
+      current =0 
+    else 
+      current = current + 1
+      if current > maxCount 
+        maxCount = current
+      end
+    end
+  end
+  
+  if maxCount >= 4
+    puts "NO"
+  else
+    puts "YES"
+  end
+end
+
+
+=begin
+
+Result Output: 
+
+Enter the times of loop
+3
+5
+apple
+YES
+6
+polish
+YES
+14
+schtschurowskia
+NO
+
+=end
