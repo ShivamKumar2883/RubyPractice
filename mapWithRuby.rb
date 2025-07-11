@@ -1,4 +1,9 @@
-#working of map in ruby
+=begin 
+NOTE: there are two maps in ruby one is map method 
+and other is map Data Sturutre this one is same as hashes.
+=end
+
+#working of map method in ruby
 ["1","2","3"].map {|x| puts x}
 #output: 1 2 3
 

@@ -12,7 +12,7 @@ end
 
 =begin
 The keyword "self" stand for the class itself and calls it.
-
+But, if you run the code without it will also work.
 Interview question: Did you remember a variable can be accessed outside of the function in Ruby, 
 so, can we write the "self.stuff" before the function creation, 
 does it will work?

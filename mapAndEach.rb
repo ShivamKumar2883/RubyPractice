@@ -1,3 +1,5 @@
+#In Ruby hash and map are same thing two names of same Data Structure.
+
 #working of map in ruby
 ["1","2","3"].map {|x| puts x}
 #output: 1 2 3
