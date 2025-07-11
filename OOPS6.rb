@@ -2,6 +2,7 @@
 topic: Class Variable: If you want to have a variable of all objects class variable is used.
 
 NOTE: @ is used for Instance Variable, and @@ is used for Class variable.
+In Ruby Class it self is a object.
 =end
 
 class Dog
