@@ -1,3 +1,5 @@
+# TOPIC of this PROG. : Creation of objects 
+
 class Dog
 
 end
