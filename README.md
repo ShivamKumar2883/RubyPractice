@@ -12,7 +12,7 @@ Just track for learning Ruby Language and its important Questions to practice. U
 | 4 | Topics of Objects, Conversion, Equality and problems on them. |
 | 5 | Started with all types of problem-solving with help of Ruby. Solved problems from CodeChef, YouTube, and LeetCode. |
 | 6 | Topics like `map`, `each`, and `split` in Ruby and problems on them. |
-| 7 | Implementation on OOP, more on GC in Ruby, Started with Basic theory on Rails (On it). |
+| 7 | Implementation on OOP, more on GC in Ruby, Started with Basic theory on Rails (Still On it). |
 
 ---
 # Notes:
