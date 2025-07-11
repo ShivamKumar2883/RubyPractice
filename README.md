@@ -2,10 +2,21 @@
 
 Just track for learning Ruby Language and its important Questions to practice. Under Nirmal Sir's Guidance.
 
+## Daily Updates
+
+| Day | Progress |
+|-----|----------|
+| 1 | Installation of pre-requisites setup like Linux (20.04.6), Ruby (3.2) and Rails (7+). |
+| 2 | Basic of Ruby and syntax-based questions of them, working of Ruby at its runtime. |
+| 3 | Important topics of Ruby like Hashes, Garbage Collection, Return Statement working and their questions and terminal syntax of GC. |
+| 4 | Topics of Objects, Conversion, Equality and problems on them. |
+| 5 | Started with all types of problem-solving with help of Ruby. Solved problems from CodeChef, YouTube, and LeetCode. |
+| 6 | Topics like `map`, `each`, and `split` in Ruby and problems on them. |
+| 7 | Implementation on OOP, more on GC in Ruby, Started with Basic theory on Rails (Still On it). |
+
 ---
 # Notes:
 https://six-spaghetti-ef6.notion.site/Ruby-226d535fd85180ad95c6ea7c7170def8
-(Please Dont Edit the Notes)
 
 ## Standard Workflow for Pushing Changes
 
