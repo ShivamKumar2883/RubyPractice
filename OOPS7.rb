@@ -1,4 +1,4 @@
-# topic: In case you want to direct access the class method after its creation and runit.
+# topic: Inheritance Property: In case you want to direct access the class method after its creation and runit.
 
 class Dog
     def Dog.stuff
